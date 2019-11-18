@@ -1,23 +1,23 @@
 # Drum Kit (Play Me!) 
 
-an animated game created at codepen by josh URL/ https://codepen.io/iamjoshellis/pen/KVdQqm
+> an animated game created at codepen by josh URL/ https://codepen.io/iamjoshellis/pen/KVdQqm
 Rock out with this interactive svg animation, click, tap, or keys to play! Turn your volume 
 up for html audio elements in your ears!
 
 # Installation
--The programming language Java Script need to be activated.
--JS doesn't support the browser " Internet Explorer" So you have to use other browsers like 
+> -The programming language Java Script need to be activated.
+> -JS doesn't support the browser " Internet Explorer" So you have to use other browsers like 
  Chrome, Safari, FireFox etc ..
 
 # Usage 
--To add an audio elememt in JS you may need use this code :
+> -To add an audio elememt in JS you may need use this code :
 <audio id="audio-player" controls="controls" src="media/Blue Browne.mp3" type="audio/mpeg">
   
-- Using insertAdjacentHTML :
-  Use this method if you have other elements in there that you previously referenced and want to keep
+> - Using insertAdjacentHTML :
+ > Use this method if you have other elements in there that you previously referenced and want to keep
   a reference to.
-  document.getElementById("song").insertAdjacentHTML("beforeend","<audio id="audio-player" controls="controls"
-  src="media/Blue Browne.mp3" type="audio/mpeg">');
+  > document.getElementById("song").insertAdjacentHTML("beforeend","<audio id="audio-player" controls="controls"
+ >  src="media/Blue Browne.mp3" type="audio/mpeg">');
   
 
 #  Support
