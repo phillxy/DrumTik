@@ -5,10 +5,20 @@ Rock out with this interactive svg animation, click, tap, or keys to play! Turn 
 up for html audio elements in your ears!
 
 # Installation
-none
+-The programming language Java Script need to be activated.
+-JS doesn't support the browser " Internet Explorer" So you have to use other browsers like 
+ Chrome, Safari, FireFox etc ..
 
 # Usage 
-none
+-To add an audio elememt in JS you may need use this code :
+<audio id="audio-player" controls="controls" src="media/Blue Browne.mp3" type="audio/mpeg">
+  
+- Using insertAdjacentHTML :
+  Use this method if you have other elements in there that you previously referenced and want to keep
+  a reference to.
+  document.getElementById("song").insertAdjacentHTML("beforeend","<audio id="audio-player" controls="controls"
+  src="media/Blue Browne.mp3" type="audio/mpeg">');
+  
 
 #  Support
 Go to josh's profile on CodePen if you need any help about this! (https://codepen.io/iamjoshellis)
